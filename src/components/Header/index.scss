@@ -1,0 +1,30 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background-color: #1d1d1d;
+
+
+    h1 {
+        margin: 0;
+        color: white;
+        font-size: 50px;
+    }
+
+    input {
+        border-radius: 20px;
+        height: 40px;
+        width: 250px;
+        border: none;
+        outline: none;
+        padding-left: 20px;
+
+        font-size: 20px;
+
+        &::placeholder {
+            padding: 10px;
+            font-size: 18px;
+        }
+    }
+}
